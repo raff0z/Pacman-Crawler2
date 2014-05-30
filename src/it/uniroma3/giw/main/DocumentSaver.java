@@ -73,7 +73,7 @@ public class DocumentSaver {
 		}
 		return false;
 	}
-	
+
 	private void updateID2URL(String nameFile, String url){
 		this.append(this.id2UrlPath + "id2url.txt", nameFile + " -> " + url);			
 		this.counter++;
